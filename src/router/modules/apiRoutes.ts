@@ -6,6 +6,11 @@ const apiRoutes: RouteRecordRaw[] = [
     path: '/api1',
     component: () => import('../../pages/Api/ApiPage1.vue'),
   },
+  {
+    name: 'api2',
+    path: '/api2',
+    component: () => import('../../pages/Api/ApiPage2.vue'),
+  },
 ];
 
 export default apiRoutes;
